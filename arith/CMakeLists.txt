@@ -1,5 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
-project(arith VERSION 0.2.0 DESCRIPTION "second step")
+project(arith VERSION 0.3.0 DESCRIPTION "arithmatic library")
 
 add_library(arith SHARED src/add.cxx)
 
